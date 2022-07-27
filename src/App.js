@@ -12,7 +12,7 @@ import 'bootstrap-icons/font/bootstrap-icons.css'
 
 
 import Navbar from './common/Navbar';
-import HomePage from './components/HomePage';it 
+import HomePage from './components/HomePage';
 import AboutUsPage from './components/AboutUsPage';
 import BookAnExperiencePage from './components/BookAnExperiencePage';
 import ContactUsPage from './components/ContactUsPage';
@@ -32,8 +32,7 @@ export default function App() {
           <Route path='/Cart' element={<CartPage />} />
         </Routes>
     </BrowserRouter>
-    {/* i removed this HomePage call back cause its causing a duplicate with the HomePage element in the route path */}
-    {/* small change */}
+    {/* i removed this HomePage call back cause its causing a duplicate with the HomePage element in the route */}
     {/* <HomePage/>  */}
     </>
   )

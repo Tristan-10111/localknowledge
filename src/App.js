@@ -12,7 +12,7 @@ import 'bootstrap-icons/font/bootstrap-icons.css'
 
 
 import Navbar from './common/Navbar';
-import HomePage from './components/HomePage';
+import HomePage from './components/HomePage';it 
 import AboutUsPage from './components/AboutUsPage';
 import BookAnExperiencePage from './components/BookAnExperiencePage';
 import ContactUsPage from './components/ContactUsPage';

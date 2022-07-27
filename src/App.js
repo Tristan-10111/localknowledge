@@ -33,6 +33,7 @@ export default function App() {
         </Routes>
     </BrowserRouter>
     {/* i removed this HomePage call back cause its causing a duplicate with the HomePage element in the route path */}
+    {/* small change */}
     {/* <HomePage/>  */}
     </>
   )

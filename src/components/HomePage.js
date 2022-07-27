@@ -12,7 +12,7 @@ export default function HomePage() {
         <img src={example} className="card-img-top" alt="backGroundImage"/>
         <div className="card-body mx-auto">
             <div>
-                <h3 id="covid-title"><strong>Please Note: Update in response to current COVID-19 situation</strong></h3>
+                <h3 id="covid-title"><strong>Please Note : Update in response to current COVID-19 situation</strong></h3>
                 <p className="text-muted">COVID-19 PROTOCOL: <br/>The safety and health of our guests is our main priority. In accordance to Tourism South Africa's Covid-19 Safety Guidelines/Protocols, we have implemented several practices to mitigate the risk to our guests and hosts. All staff and guest's temperatures will be checked upon arrival. We ask all guests to wear a mask whilst inside the vehicle. All vehicles and equipment are sanitized before an after each group. Hand sanitizer is available in all vehicles. Most importantly: If guests feel any symptoms prior this experience, we ask that you contact us immediately. If this results in a cancellation, we will provide a FULL REFUND.</p>
             </div>
             <div className="my-5">

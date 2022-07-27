@@ -10,8 +10,9 @@ import 'bootstrap/dist/css/bootstrap.css';
 import 'bootstrap/js/dist/collapse';
 import 'bootstrap-icons/font/bootstrap-icons.css'
 
-import HomePage from './components/HomePage';
+
 import Navbar from './common/Navbar';
+import HomePage from './components/HomePage';
 import AboutUsPage from './components/AboutUsPage';
 import BookAnExperiencePage from './components/BookAnExperiencePage';
 import ContactUsPage from './components/ContactUsPage';
@@ -20,6 +21,7 @@ import CartPage from './components/CartPage';
 
 export default function App() {
   return (
+    <>
     <BrowserRouter>
       <Navbar/>
         <Routes>
@@ -29,7 +31,9 @@ export default function App() {
           <Route path='/ContactUs' element={<ContactUsPage />} />
           <Route path='/Cart' element={<CartPage />} />
         </Routes>
-      <HomePage/>
     </BrowserRouter>
+    {/* i removed this HomePage call back cause its causing a duplicate with the HomePage element in the route path */}
+    {/* <HomePage/>  */}
+    </>
   )
 }

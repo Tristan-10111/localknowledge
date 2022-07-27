@@ -2,14 +2,14 @@ import React from 'react'
 import 'bootstrap/dist/css/bootstrap.css';
 import 'bootstrap-icons/font/bootstrap-icons.css';
 
-import example from './example.jpg';
-import './styles.css';
+import example from './images/example.jpg';
+import './HomePage.css';
 import YoutubeEmbed from "./YoutubeEmbed";
 
 export default function HomePage() {
   return (
     <div className="card text-center">
-        <img src={example} className="card-img-top" alt="..."/>
+        <img src={example} className="card-img-top" alt="backGroundImage"/>
         <div className="card-body mx-auto">
             <div>
                 <h3 id="covid-title"><strong>Please Note: Update in response to current COVID-19 situation</strong></h3>
